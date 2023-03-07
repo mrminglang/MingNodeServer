@@ -1,0 +1,8 @@
+module MingApp
+{
+
+    interface MingNodeServer
+    {
+        int mingHello(string s, out string r);
+    };
+};

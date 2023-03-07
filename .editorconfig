@@ -1,0 +1,13 @@
+# http://editorconfig.org
+root = true
+
+[*]
+indent_style = space # 空格排版
+indent_size = 4 # 四个
+end_of_line = lf # 控制如何表示换行符
+charset = utf-8 # 指定字符集
+trim_trailing_whitespace = true # 删除换行符前面的任何空白字符
+insert_final_newline = true # 确保文件在保存时以换行符结尾
+
+[*.md]
+trim_trailing_whitespace = false

@@ -1,0 +1,32 @@
+{
+    "name": "MingNodeServer",
+    "version": "1.0.1",
+    "description": "ming tafnodejs",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest",
+        "dev": "cross-env DEBUG=app:* NODE_ENV=local nodemon -e js,ejs,conf app.js",
+        "start": "node app.js"
+    },
+    "nodemonConfig": {
+        "ignoreRoot": [
+            "public",
+            "node_modules",
+            "test"
+        ]
+    },
+    "keywords": [],
+    "author": "minglang <langming@upchina.com>",
+    "dependencies": {
+        "@taf/taf-config": "^1.2.7",
+        "@taf/taf-logs": "^0.1.1",
+        "@taf/taf-rpc": "^3.1.7",
+        "@taf/taf-stream": "^4.0.2",
+        "@taf/taf-utils": "^1.1.1",
+        "debug": "^2.6.6",
+        "q": "^1.5.0"
+    },
+    "devDependencies": {
+        "cross-env": "^4.0.0"
+    }
+}

@@ -1,0 +1,12 @@
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.node_modules
+node_modules
+.vscode/*
+.vscode
+.idea
+main/.vscode
+elasticsearch

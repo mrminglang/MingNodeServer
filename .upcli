@@ -1,0 +1,1 @@
+{"destDirName":"MingNodeServer","inPlace":false,"noEscape":true,"template":"@up/uptpl-tafnodeserver","nameSpace":"MingApp","name":"MingNodeServer","description":"ming tafnodejs","author":"minglang <langming@upchina.com>","lint":true,"unit":true,"gitignore":"","date":"2023-3-7"}
